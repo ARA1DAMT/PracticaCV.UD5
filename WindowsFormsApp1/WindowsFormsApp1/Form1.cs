@@ -20,22 +20,23 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             Alumno miAlumno = new Alumno();
-            String miAlumnoStr, miAlumnoNotaTexto;
+            string miAlumnoStr, miAlumnoNotaTexto;
 
             miAlumno.Nombre = aluNombre.Text;
             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            if (miAlumno.Nota<5)
+
+            if (miAlumno.Nota < 5)
             {
                 miAlumnoNotaTexto = "Suspenso";
             }
-            else if (miAlumno.Nota<7)
+            else if (miAlumno.Nota < 7)
             {
                 miAlumnoNotaTexto = "Aprobado";
             }
-            else if (miAlumno.Nota<9)
+            else if (miAlumno.Nota < 9)
             {
                 miAlumnoNotaTexto = "Notable";
             }
@@ -44,13 +45,9 @@ namespace WindowsFormsApp1
                 miAlumnoNotaTexto = "Sobresaliente";
             }
 
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\n"; 
+            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\n";
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
 
         }
     }
@@ -74,16 +71,16 @@ namespace WindowsFormsApp1
                     nota = value;
             }
         }
-        public Boolean Aprobado
-        {
-            get
-            {
-                if (nota >= 5)
-                    return true;
-                else
-                    return false;
-            }
-        }
+        // public Boolean Aprobado
+        //{
+        //    get
+        //    {
+        //        if (nota >= 5)
+        //            return true;
+        //        else
+        //            return false;
+        //    }
+        //}
     }
 
     class Alumnos
