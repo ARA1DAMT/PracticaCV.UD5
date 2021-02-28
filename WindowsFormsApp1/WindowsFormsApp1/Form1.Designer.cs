@@ -31,8 +31,9 @@ namespace WindowsFormsApp1
         {
             this.button1 = new System.Windows.Forms.Button();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -44,6 +45,7 @@ namespace WindowsFormsApp1
             this.button1.TabIndex = 0;
             this.button1.Text = "Guardar alumno";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // aluNombre
             // 
@@ -52,14 +54,6 @@ namespace WindowsFormsApp1
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(277, 22);
             this.aluNombre.TabIndex = 1;
-            // 
-            // aluNota
-            // 
-            this.aluNota.Location = new System.Drawing.Point(390, 54);
-            this.aluNota.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(70, 22);
-            this.aluNota.TabIndex = 2;
             // 
             // listaAlumnos
             // 
@@ -71,19 +65,27 @@ namespace WindowsFormsApp1
             this.listaAlumnos.Size = new System.Drawing.Size(540, 280);
             this.listaAlumnos.TabIndex = 3;
             // 
+            // aluNota
+            // 
+            this.aluNota.Location = new System.Drawing.Point(396, 55);
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(70, 22);
+            this.aluNota.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 470);
-            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNota);
+            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNombre);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Alumnos";
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,8 +95,8 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.TextBox listaAlumnos;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
 
