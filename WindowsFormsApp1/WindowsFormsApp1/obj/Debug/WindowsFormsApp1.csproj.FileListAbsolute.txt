@@ -8,3 +8,13 @@ C:\Users\Mare Nostrum\source\repos\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsA
 C:\Users\Mare Nostrum\source\repos\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Mare Nostrum\source\repos\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Mare Nostrum\source\repos\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alejandro\Source\Repos\ARA1DAMT\PracticaCV.UD5\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

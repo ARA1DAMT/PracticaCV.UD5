@@ -23,13 +23,32 @@ namespace WindowsFormsApp1
         private void button1_Click_1(object sender, EventArgs e)
         {
             Alumno miAlumno = new Alumno();
-            String miAlumnoStr;
+            string miAlumnoStr, miAlumnoNotaTexto;
 
             miAlumno.Nombre = aluNombre.Text;
             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + (miAlumno.Aprobado ? " Aprobado" : " Suspenso") + "\n" ;
+
+            if (miAlumno.Nota < 5)
+            {
+                miAlumnoNotaTexto = "Suspenso";
+            }
+            else if (miAlumno.Nota < 7)
+            {
+                miAlumnoNotaTexto = "Aprobado";
+            }
+            else if (miAlumno.Nota < 9)
+            {
+                miAlumnoNotaTexto = "Notable";
+            }
+            else
+            {
+                miAlumnoNotaTexto = "Sobresaliente";
+            }
+
+            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\n";
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
+
         }
     }
 
@@ -52,16 +71,16 @@ namespace WindowsFormsApp1
                     nota = value;
             }
         }
-        public Boolean Aprobado
-        {
-            get
-            {
-                if (nota >= 5)
-                    return true;
-                else
-                    return false;
-            }
-        }
+        // public Boolean Aprobado
+        //{
+        //    get
+        //    {
+        //        if (nota >= 5)
+        //            return true;
+        //        else
+        //            return false;
+        //    }
+        //}
     }
 
     class Alumnos
